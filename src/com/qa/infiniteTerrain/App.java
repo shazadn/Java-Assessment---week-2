@@ -18,14 +18,16 @@ public class App {
 	Player p1 = new Player(5, 5);
 	p1.setName("Shazad");
 	
+	//objective
+	Player treasure = new Player(6,5);
 	
 	while(cont) {
 		
 		int xValP =p1.getXVal();
 		int yValP =p1.getYVal();
 		
-		//objective
-		Player treasure = new Player(6,5);
+		
+		
 		int xValT =treasure.getXVal();
 		int yValT =treasure.getYVal();
 		
